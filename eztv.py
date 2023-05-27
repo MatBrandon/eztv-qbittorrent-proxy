@@ -10,7 +10,7 @@ from helpers import retrieve_url
 
 class eztv(object):
     name = "EZTV"
-    url = 'https://eztv.re'
+    url = 'https://eztv.proxyninja.org'
     supported_categories = {'all': 'all', 'tv': 'tv'}
 
     class MyHtmlParser(HTMLParser):
